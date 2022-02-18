@@ -1,0 +1,1984 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20212.21.1217.2251                               -->
+<workbook source-build='2021.2.7 (20212.21.1217.2251)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <SavingAnalyticObjects />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Data (FDI Case Study (1))' inline='true' name='federated.0sao4lr1dq0rl319y4uqc0d49n9t' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='FDI Case Study (1)' name='excel-direct.06re1ve0s45c7r1exx14s13c2mvd'>
+            <connection class='excel-direct' cleaning='yes' compat='no' dataRefreshTime='' filename='/Users/vaibhav/Downloads/FDI Case Study (1).xlsx' interpretationMode='1' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Pivot' type='pivot'>
+          <columns>
+            <column datatype='string' name='Pivot Field Names' />
+            <column datatype='real' name='Pivot Field Values' />
+          </columns>
+          <tag name='Pivot Field Names'>
+            <value name='[2000-01]' />
+            <value name='[2001-02]' />
+            <value name='[2002-03]' />
+            <value name='[2003-04]' />
+            <value name='[2004-05]' />
+            <value name='[2005-06]' />
+            <value name='[2006-07]' />
+            <value name='[2007-08]' />
+            <value name='[2008-09]' />
+            <value name='[2009-10]' />
+            <value name='[2010-11]' />
+            <value name='[2011-12]' />
+            <value name='[2012-13]' />
+            <value name='[2013-14]' />
+            <value name='[2014-15]' />
+            <value name='[2015-16]' />
+            <value name='[2016-17]' />
+          </tag>
+          <groups>
+            <group name='Pivot Field Values'>
+              <field name='[Data].[2000-01]' />
+              <field name='[Data].[2001-02]' />
+              <field name='[Data].[2002-03]' />
+              <field name='[Data].[2003-04]' />
+              <field name='[Data].[2004-05]' />
+              <field name='[Data].[2005-06]' />
+              <field name='[Data].[2006-07]' />
+              <field name='[Data].[2007-08]' />
+              <field name='[Data].[2008-09]' />
+              <field name='[Data].[2009-10]' />
+              <field name='[Data].[2010-11]' />
+              <field name='[Data].[2011-12]' />
+              <field name='[Data].[2012-13]' />
+              <field name='[Data].[2013-14]' />
+              <field name='[Data].[2014-15]' />
+              <field name='[Data].[2015-16]' />
+              <field name='[Data].[2016-17]' />
+            </group>
+          </groups>
+          <relation connection='excel-direct.06re1ve0s45c7r1exx14s13c2mvd' name='Data' table='[Data$]' type='table'>
+            <columns gridOrigin='A1:R71:no:A1:R71:1' header='no' lost='0' outcome='1' processed='1088'>
+              <column datatype='string' name='Sector' ordinal='0' />
+              <column datatype='real' name='2000-01' ordinal='1' />
+              <column datatype='real' name='2001-02' ordinal='2' />
+              <column datatype='real' name='2002-03' ordinal='3' />
+              <column datatype='real' name='2003-04' ordinal='4' />
+              <column datatype='real' name='2004-05' ordinal='5' />
+              <column datatype='real' name='2005-06' ordinal='6' />
+              <column datatype='real' name='2006-07' ordinal='7' />
+              <column datatype='real' name='2007-08' ordinal='8' />
+              <column datatype='real' name='2008-09' ordinal='9' />
+              <column datatype='real' name='2009-10' ordinal='10' />
+              <column datatype='real' name='2010-11' ordinal='11' />
+              <column datatype='real' name='2011-12' ordinal='12' />
+              <column datatype='real' name='2012-13' ordinal='13' />
+              <column datatype='real' name='2013-14' ordinal='14' />
+              <column datatype='real' name='2014-15' ordinal='15' />
+              <column datatype='real' name='2015-16' ordinal='16' />
+              <column datatype='real' name='2016-17' ordinal='17' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Pivot' type='pivot'>
+          <columns>
+            <column datatype='string' name='Pivot Field Names' />
+            <column datatype='real' name='Pivot Field Values' />
+          </columns>
+          <tag name='Pivot Field Names'>
+            <value name='[2000-01]' />
+            <value name='[2001-02]' />
+            <value name='[2002-03]' />
+            <value name='[2003-04]' />
+            <value name='[2004-05]' />
+            <value name='[2005-06]' />
+            <value name='[2006-07]' />
+            <value name='[2007-08]' />
+            <value name='[2008-09]' />
+            <value name='[2009-10]' />
+            <value name='[2010-11]' />
+            <value name='[2011-12]' />
+            <value name='[2012-13]' />
+            <value name='[2013-14]' />
+            <value name='[2014-15]' />
+            <value name='[2015-16]' />
+            <value name='[2016-17]' />
+          </tag>
+          <groups>
+            <group name='Pivot Field Values'>
+              <field name='[Data].[2000-01]' />
+              <field name='[Data].[2001-02]' />
+              <field name='[Data].[2002-03]' />
+              <field name='[Data].[2003-04]' />
+              <field name='[Data].[2004-05]' />
+              <field name='[Data].[2005-06]' />
+              <field name='[Data].[2006-07]' />
+              <field name='[Data].[2007-08]' />
+              <field name='[Data].[2008-09]' />
+              <field name='[Data].[2009-10]' />
+              <field name='[Data].[2010-11]' />
+              <field name='[Data].[2011-12]' />
+              <field name='[Data].[2012-13]' />
+              <field name='[Data].[2013-14]' />
+              <field name='[Data].[2014-15]' />
+              <field name='[Data].[2015-16]' />
+              <field name='[Data].[2016-17]' />
+            </group>
+          </groups>
+          <relation connection='excel-direct.06re1ve0s45c7r1exx14s13c2mvd' name='Data' table='[Data$]' type='table'>
+            <columns gridOrigin='A1:R71:no:A1:R71:1' header='no' lost='0' outcome='1' processed='1088'>
+              <column datatype='string' name='Sector' ordinal='0' />
+              <column datatype='real' name='2000-01' ordinal='1' />
+              <column datatype='real' name='2001-02' ordinal='2' />
+              <column datatype='real' name='2002-03' ordinal='3' />
+              <column datatype='real' name='2003-04' ordinal='4' />
+              <column datatype='real' name='2004-05' ordinal='5' />
+              <column datatype='real' name='2005-06' ordinal='6' />
+              <column datatype='real' name='2006-07' ordinal='7' />
+              <column datatype='real' name='2007-08' ordinal='8' />
+              <column datatype='real' name='2008-09' ordinal='9' />
+              <column datatype='real' name='2009-10' ordinal='10' />
+              <column datatype='real' name='2010-11' ordinal='11' />
+              <column datatype='real' name='2011-12' ordinal='12' />
+              <column datatype='real' name='2012-13' ordinal='13' />
+              <column datatype='real' name='2013-14' ordinal='14' />
+              <column datatype='real' name='2014-15' ordinal='15' />
+              <column datatype='real' name='2015-16' ordinal='16' />
+              <column datatype='real' name='2016-17' ordinal='17' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Data]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>2</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:R71:no:A1:R71:1&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>1088</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sector</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Sector]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Sector</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_9A96CD6C9B894DA5A34596ED49AA16C1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Names</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Pivot Field Names]</local-name>
+            <parent-name>[Pivot]</parent-name>
+            <remote-alias>Pivot Field Names</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_9A96CD6C9B894DA5A34596ED49AA16C1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Values</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Pivot Field Values]</local-name>
+            <parent-name>[Pivot]</parent-name>
+            <remote-alias>Pivot Field Values</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_9A96CD6C9B894DA5A34596ED49AA16C1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Financial Year' datatype='date' datatype-customized='true' name='[Calculation_4828632860488069120]' role='dimension' type='ordinal'>
+        <calculation class='tableau' formula='DATE(DATEPARSE ( &quot;yyyy&quot;, LEFT([Pivot Field Names],4) )) ' />
+      </column>
+      <column caption='Year' datatype='string' hidden='true' name='[Pivot Field Names]' role='dimension' type='nominal' />
+      <column caption='FDI' datatype='real' name='[Pivot Field Values]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Sector (group)]' role='dimension' type='nominal'>
+        <calculation class='categorical-bin' column='[Sector]' new-bin='true'>
+          <bin default-name='false' value='&quot;Agriculture&quot;'>
+            <value>&quot;AGRICULTURAL MACHINERY&quot;</value>
+            <value>&quot;AGRICULTURE SERVICES&quot;</value>
+            <value>&quot;CHEMICALS (OTHER THAN FERTILIZERS)&quot;</value>
+            <value>&quot;DYE-STUFFS&quot;</value>
+            <value>&quot;FERTILIZERS&quot;</value>
+            <value>&quot;SUGAR&quot;</value>
+            <value>&quot;TEA AND COFFEE (PROCESSING &amp; WAREHOUSING COFFEE &amp; RUBBER)&quot;</value>
+            <value>&quot;TEXTILES (INCLUDING DYED,PRINTED)&quot;</value>
+            <value>&quot;TIMBER PRODUCTS&quot;</value>
+            <value>&quot;VEGETABLE OILS AND VANASPATI&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;Civil Industry&quot;'>
+            <value>&quot;CEMENT AND GYPSUM PRODUCTS&quot;</value>
+            <value>&quot;COAL PRODUCTION&quot;</value>
+            <value>&quot;COIR&quot;</value>
+            <value>&quot;CONSTRUCTION (INFRASTRUCTURE) ACTIVITIES&quot;</value>
+            <value>&quot;CONSTRUCTION DEVELOPMENT: Townships, housing, built-up infrastructure and construction-development projects&quot;</value>
+            <value>&quot;EARTH-MOVING MACHINERY&quot;</value>
+            <value>&quot;GLUE AND GELATIN&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;Education&quot;'>
+            <value>&quot;EDUCATION&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;Energy&quot;'>
+            <value>&quot;CERAMICS&quot;</value>
+            <value>&quot;MINING&quot;</value>
+            <value>&quot;NON-CONVENTIONAL ENERGY&quot;</value>
+            <value>&quot;PETROLEUM &amp; NATURAL GAS&quot;</value>
+            <value>&quot;POWER&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;Hospitals&quot;'>
+            <value>&quot;DRUGS &amp; PHARMACEUTICALS&quot;</value>
+            <value>&quot;HOSPITAL &amp; DIAGNOSTIC CENTRES&quot;</value>
+            <value>&quot;MEDICAL AND SURGICAL APPLIANCES&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;Industries&quot;'>
+            <value>&quot;AUTOMOBILE INDUSTRY&quot;</value>
+            <value>&quot;BOILERS AND STEAM GENERATING PLANTS&quot;</value>
+            <value>&quot;DEFENCE INDUSTRIES&quot;</value>
+            <value>&quot;FERMENTATION INDUSTRIES&quot;</value>
+            <value>&quot;FOOD PROCESSING INDUSTRIES&quot;</value>
+            <value>&quot;GLASS&quot;</value>
+            <value>&quot;INDUSTRIAL INSTRUMENTS&quot;</value>
+            <value>&quot;INDUSTRIAL MACHINERY&quot;</value>
+            <value>&quot;MACHINE TOOLS&quot;</value>
+            <value>&quot;METALLURGICAL INDUSTRIES&quot;</value>
+            <value>&quot;MISCELLANEOUS INDUSTRIES&quot;</value>
+            <value>&quot;MISCELLANEOUS MECHANICAL &amp; ENGINEERING INDUSTRIES&quot;</value>
+            <value>&quot;PRIME MOVER (OTHER THAN ELECTRICAL GENERATORS)&quot;</value>
+            <value>&quot;RAILWAY RELATED COMPONENTS&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;IT &amp; Services&quot;'>
+            <value>&quot;COMPUTER SOFTWARE &amp; HARDWARE&quot;</value>
+            <value>&quot;CONSULTANCY SERVICES&quot;</value>
+            <value>&quot;ELECTRICAL EQUIPMENTS&quot;</value>
+            <value>&quot;ELECTRONICS&quot;</value>
+            <value>&quot;INFORMATION &amp; BROADCASTING (INCLUDING PRINT MEDIA)&quot;</value>
+            <value>&quot;SERVICES SECTOR (Fin.,Banking,Insurance,Non Fin/Business,Outsourcing,R&amp;D,Courier,Tech. Testing and Analysis, Other)&quot;</value>
+            <value>&quot;TELECOMMUNICATIONS&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;Other Miscellanios&quot;'>
+            <value>&quot;MATHEMATICAL,SURVEYING AND DRAWING INSTRUMENTS&quot;</value>
+            <value>&quot;PHOTOGRAPHIC RAW FILM AND PAPER&quot;</value>
+            <value>&quot;SCIENTIFIC INSTRUMENTS&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;Retail Goods&quot;'>
+            <value>&quot;COMMERCIAL, OFFICE &amp; HOUSEHOLD EQUIPMENTS&quot;</value>
+            <value>&quot;DIAMOND,GOLD ORNAMENTS&quot;</value>
+            <value>&quot;LEATHER,LEATHER GOODS AND PICKERS&quot;</value>
+            <value>&quot;PAPER AND PULP (INCLUDING PAPER PRODUCTS)&quot;</value>
+            <value>&quot;PRINTING OF BOOKS (INCLUDING LITHO PRINTING INDUSTRY)&quot;</value>
+            <value>&quot;RUBBER GOODS&quot;</value>
+            <value>&quot;SOAPS, COSMETICS &amp; TOILET PREPARATIONS&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;Trading&quot;'>
+            <value>&quot;RETAIL TRADING&quot;</value>
+            <value>&quot;TRADING&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;Transport&quot;'>
+            <value>&quot;AIR TRANSPORT (INCLUDING AIR FREIGHT)&quot;</value>
+            <value>&quot;HOTEL &amp; TOURISM&quot;</value>
+            <value>&quot;PORTS&quot;</value>
+            <value>&quot;SEA TRANSPORT&quot;</value>
+          </bin>
+        </calculation>
+      </column>
+      <column datatype='string' name='[Sector]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Data' datatype='table' name='[__tableau_internal_object_id__].[Data_9A96CD6C9B894DA5A34596ED49AA16C1]' role='measure' type='quantitative' />
+      <column-instance column='[FDI over 1000]' derivation='InOut' name='[io:FDI over 1000:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Forecast Indicator]' derivation='None' forecast-column-base='[Forecast Indicator]' forecast-column-type='forecast-indicator' name='[none:Forecast Indicator:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Pivot Field Values]' derivation='Sum' name='[sum:Pivot Field Values:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_4828632860488069120]' derivation='Year' name='[yr:Calculation_4828632860488069120:ok]' pivot='key' type='ordinal' />
+      <group caption='FDI over 1000' name='[FDI over 1000]' name-style='unqualified' user:ui-builder='filter-group'>
+        <groupfilter expression='SUM([Pivot Field Values]) &gt;= 1000.' function='filter' user:ui-filter-by-field='true' user:ui-marker='filter-by'>
+          <groupfilter function='level-members' level='[Sector]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+        </groupfilter>
+      </group>
+      <group caption='Mid Years' name='[YEAR(Financial Year) Set]' name-style='unqualified' user:ui-builder='lasso-group'>
+        <groupfilter function='union'>
+          <groupfilter function='member' level='[yr:Calculation_4828632860488069120:ok]' member='2007' />
+          <groupfilter function='member' level='[yr:Calculation_4828632860488069120:ok]' member='2008' />
+          <groupfilter function='member' level='[yr:Calculation_4828632860488069120:ok]' member='2009' />
+          <groupfilter function='member' level='[yr:Calculation_4828632860488069120:ok]' member='2010' />
+          <groupfilter function='member' level='[yr:Calculation_4828632860488069120:ok]' member='2011' />
+          <groupfilter function='member' level='[yr:Calculation_4828632860488069120:ok]' member='2012' />
+        </groupfilter>
+      </group>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[io:FDI over 1000:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>true</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>false</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Forecast Indicator:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Actual&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Estimate&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <default-sorts>
+        <manual-sort column='[none:Forecast Indicator:nk]' direction='ASC'>
+          <dictionary>
+            <bucket>&quot;Actual&quot;</bucket>
+            <bucket>&quot;Estimate&quot;</bucket>
+          </dictionary>
+        </manual-sort>
+      </default-sorts>
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='Sector' />
+        <field-sort-custom-order field='Pivot Field Names' />
+        <field-sort-custom-order field='Calculation_4828632860488069120' />
+        <field-sort-custom-order field='Pivot Field Values' />
+      </field-sort-info>
+      <filter class='categorical' column='[Sector]' filter-group='2'>
+        <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+          <groupfilter from='&quot;AGRICULTURAL MACHINERY&quot;' function='range' level='[Sector]' to='&quot;GLUE AND GELATIN&quot;' />
+          <groupfilter from='&quot;HOSPITAL &amp; DIAGNOSTIC CENTRES&quot;' function='range' level='[Sector]' to='&quot;VEGETABLE OILS AND VANASPATI&quot;' />
+        </groupfilter>
+      </filter>
+      <analytic-model>
+        <name>
+          <field name='[AnalyticModel:{0faae66d-8b86-4799-9234-f143aa56661c}]' />
+        </name>
+        <analytic-model-specifications class='cluster-specifications'>
+          <analysis-fields>
+            <field name='[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[sum:Pivot Field Values:qk]' />
+          </analysis-fields>
+          <filter-fields />
+          <lod-fields />
+          <number-of-desired-clusters>0</number-of-desired-clusters>
+          <is-dissagregate>false</is-dissagregate>
+        </analytic-model-specifications>
+        <result-fields />
+      </analytic-model>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Data' id='Data_9A96CD6C9B894DA5A34596ED49AA16C1'>
+            <properties context=''>
+              <relation name='Pivot' type='pivot'>
+                <columns>
+                  <column datatype='string' name='Pivot Field Names' />
+                  <column datatype='real' name='Pivot Field Values' />
+                </columns>
+                <tag name='Pivot Field Names'>
+                  <value name='[2000-01]' />
+                  <value name='[2001-02]' />
+                  <value name='[2002-03]' />
+                  <value name='[2003-04]' />
+                  <value name='[2004-05]' />
+                  <value name='[2005-06]' />
+                  <value name='[2006-07]' />
+                  <value name='[2007-08]' />
+                  <value name='[2008-09]' />
+                  <value name='[2009-10]' />
+                  <value name='[2010-11]' />
+                  <value name='[2011-12]' />
+                  <value name='[2012-13]' />
+                  <value name='[2013-14]' />
+                  <value name='[2014-15]' />
+                  <value name='[2015-16]' />
+                  <value name='[2016-17]' />
+                </tag>
+                <groups>
+                  <group name='Pivot Field Values'>
+                    <field name='[Data].[2000-01]' />
+                    <field name='[Data].[2001-02]' />
+                    <field name='[Data].[2002-03]' />
+                    <field name='[Data].[2003-04]' />
+                    <field name='[Data].[2004-05]' />
+                    <field name='[Data].[2005-06]' />
+                    <field name='[Data].[2006-07]' />
+                    <field name='[Data].[2007-08]' />
+                    <field name='[Data].[2008-09]' />
+                    <field name='[Data].[2009-10]' />
+                    <field name='[Data].[2010-11]' />
+                    <field name='[Data].[2011-12]' />
+                    <field name='[Data].[2012-13]' />
+                    <field name='[Data].[2013-14]' />
+                    <field name='[Data].[2014-15]' />
+                    <field name='[Data].[2015-16]' />
+                    <field name='[Data].[2016-17]' />
+                  </group>
+                </groups>
+                <relation connection='excel-direct.06re1ve0s45c7r1exx14s13c2mvd' name='Data' table='[Data$]' type='table'>
+                  <columns gridOrigin='A1:R71:no:A1:R71:1' header='no' lost='0' outcome='1' processed='1088'>
+                    <column datatype='string' name='Sector' ordinal='0' />
+                    <column datatype='real' name='2000-01' ordinal='1' />
+                    <column datatype='real' name='2001-02' ordinal='2' />
+                    <column datatype='real' name='2002-03' ordinal='3' />
+                    <column datatype='real' name='2003-04' ordinal='4' />
+                    <column datatype='real' name='2004-05' ordinal='5' />
+                    <column datatype='real' name='2005-06' ordinal='6' />
+                    <column datatype='real' name='2006-07' ordinal='7' />
+                    <column datatype='real' name='2007-08' ordinal='8' />
+                    <column datatype='real' name='2008-09' ordinal='9' />
+                    <column datatype='real' name='2009-10' ordinal='10' />
+                    <column datatype='real' name='2010-11' ordinal='11' />
+                    <column datatype='real' name='2011-12' ordinal='12' />
+                    <column datatype='real' name='2012-13' ordinal='13' />
+                    <column datatype='real' name='2013-14' ordinal='14' />
+                    <column datatype='real' name='2014-15' ordinal='15' />
+                    <column datatype='real' name='2015-16' ordinal='16' />
+                    <column datatype='real' name='2016-17' ordinal='17' />
+                  </columns>
+                </relation>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Forecast for next year'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data (FDI Case Study (1))' name='federated.0sao4lr1dq0rl319y4uqc0d49n9t' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0sao4lr1dq0rl319y4uqc0d49n9t'>
+            <column caption='Financial Year' datatype='date' datatype-customized='true' name='[Calculation_4828632860488069120]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='DATE(DATEPARSE ( &quot;yyyy&quot;, LEFT([Pivot Field Names],4) )) ' />
+            </column>
+            <column caption='Year' datatype='string' hidden='true' name='[Pivot Field Names]' role='dimension' type='nominal' />
+            <column caption='FDI' datatype='real' name='[Pivot Field Values]' role='measure' type='quantitative' />
+            <column-instance column='[Pivot Field Values]' derivation='Sum' forecast-column-base='[sum:Pivot Field Values:qk]' forecast-column-type='forecast-value' name='[fVal:sum:Pivot Field Values:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Forecast Indicator]' derivation='None' forecast-column-base='[Forecast Indicator]' forecast-column-type='forecast-indicator' name='[none:Forecast Indicator:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Pivot Field Values]' derivation='Sum' name='[sum:Pivot Field Values:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_4828632860488069120]' derivation='Year-Trunc' name='[tyr:Calculation_4828632860488069120:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[none:Forecast Indicator:nk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+          </pane>
+        </panes>
+        <rows>[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[fVal:sum:Pivot Field Values:qk]</rows>
+        <cols>[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[tyr:Calculation_4828632860488069120:qk]</cols>
+        <forecast-specification auto-forecast-agg='true' band-confidence-level='95.000000' enabled='true' fill-type='fill-missing' ignore-last='1' model-type='auto-season' range-type='auto' show-prediction-bands='true' />
+      </table>
+      <simple-id uuid='{C10EBC9B-00E7-433E-81EB-1BB5DB87B1AD}' />
+    </worksheet>
+    <worksheet name='High and Low Growth Sectors'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data (FDI Case Study (1))' name='federated.0sao4lr1dq0rl319y4uqc0d49n9t' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0sao4lr1dq0rl319y4uqc0d49n9t'>
+            <column caption='Financial Year' datatype='date' datatype-customized='true' name='[Calculation_4828632860488069120]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='DATE(DATEPARSE ( &quot;yyyy&quot;, LEFT([Pivot Field Names],4) )) ' />
+            </column>
+            <column caption='Year' datatype='string' hidden='true' name='[Pivot Field Names]' role='dimension' type='nominal' />
+            <column caption='FDI' datatype='real' name='[Pivot Field Values]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Sector]' role='dimension' type='nominal' />
+            <column-instance column='[Sector]' derivation='None' name='[none:Sector:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Pivot Field Values]' derivation='Sum' name='[pcdf:sum:Pivot Field Values:qk]' pivot='key' type='quantitative'>
+              <table-calc diff-options='Relative' level-address='[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[yr:Calculation_4828632860488069120:ok]' ordering-field='[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[Calculation_4828632860488069120]' ordering-type='Field' type='PctDiff'>
+                <address>
+                  <value>-1</value>
+                </address>
+              </table-calc>
+            </column-instance>
+            <column-instance column='[Calculation_4828632860488069120]' derivation='Year' name='[yr:Calculation_4828632860488069120:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <manual-sort column='[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[none:Sector:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;GLUE AND GELATIN&quot;</bucket>
+              <bucket>&quot;CEMENT AND GYPSUM PRODUCTS&quot;</bucket>
+              <bucket>&quot;SCIENTIFIC INSTRUMENTS&quot;</bucket>
+              <bucket>&quot;ELECTRICAL EQUIPMENTS&quot;</bucket>
+              <bucket>&quot;TELECOMMUNICATIONS&quot;</bucket>
+              <bucket>&quot;DYE-STUFFS&quot;</bucket>
+              <bucket>&quot;VEGETABLE OILS AND VANASPATI&quot;</bucket>
+              <bucket>&quot;METALLURGICAL INDUSTRIES&quot;</bucket>
+              <bucket>&quot;MEDICAL AND SURGICAL APPLIANCES&quot;</bucket>
+              <bucket>&quot;TEXTILES (INCLUDING DYED,PRINTED)&quot;</bucket>
+              <bucket>&quot;PAPER AND PULP (INCLUDING PAPER PRODUCTS)&quot;</bucket>
+              <bucket>&quot;DIAMOND,GOLD ORNAMENTS&quot;</bucket>
+              <bucket>&quot;GLASS&quot;</bucket>
+              <bucket>&quot;PRIME MOVER (OTHER THAN ELECTRICAL GENERATORS)&quot;</bucket>
+              <bucket>&quot;PETROLEUM &amp; NATURAL GAS&quot;</bucket>
+              <bucket>&quot;RETAIL TRADING&quot;</bucket>
+              <bucket>&quot;SEA TRANSPORT&quot;</bucket>
+              <bucket>&quot;INFORMATION &amp; BROADCASTING (INCLUDING PRINT MEDIA)&quot;</bucket>
+              <bucket>&quot;FOOD PROCESSING INDUSTRIES&quot;</bucket>
+              <bucket>&quot;TEA AND COFFEE (PROCESSING &amp; WAREHOUSING COFFEE &amp; RUBBER)&quot;</bucket>
+              <bucket>&quot;POWER&quot;</bucket>
+              <bucket>&quot;SERVICES SECTOR (Fin.,Banking,Insurance,Non Fin/Business,Outsourcing,R&amp;D,Courier,Tech. Testing and Analysis, Other)&quot;</bucket>
+              <bucket>&quot;RAILWAY RELATED COMPONENTS&quot;</bucket>
+              <bucket>&quot;DRUGS &amp; PHARMACEUTICALS&quot;</bucket>
+              <bucket>&quot;NON-CONVENTIONAL ENERGY&quot;</bucket>
+              <bucket>&quot;HOSPITAL &amp; DIAGNOSTIC CENTRES&quot;</bucket>
+              <bucket>&quot;CHEMICALS (OTHER THAN FERTILIZERS)&quot;</bucket>
+              <bucket>&quot;CONSTRUCTION DEVELOPMENT: Townships, housing, built-up infrastructure and construction-development projects&quot;</bucket>
+              <bucket>&quot;AGRICULTURAL MACHINERY&quot;</bucket>
+              <bucket>&quot;AGRICULTURE SERVICES&quot;</bucket>
+              <bucket>&quot;MISCELLANEOUS MECHANICAL &amp; ENGINEERING INDUSTRIES&quot;</bucket>
+              <bucket>&quot;RUBBER GOODS&quot;</bucket>
+              <bucket>&quot;EDUCATION&quot;</bucket>
+              <bucket>&quot;BOILERS AND STEAM GENERATING PLANTS&quot;</bucket>
+              <bucket>&quot;HOTEL &amp; TOURISM&quot;</bucket>
+              <bucket>&quot;AUTOMOBILE INDUSTRY&quot;</bucket>
+              <bucket>&quot;COMPUTER SOFTWARE &amp; HARDWARE&quot;</bucket>
+              <bucket>&quot;TRADING&quot;</bucket>
+              <bucket>&quot;INDUSTRIAL MACHINERY&quot;</bucket>
+              <bucket>&quot;FERMENTATION INDUSTRIES&quot;</bucket>
+              <bucket>&quot;EARTH-MOVING MACHINERY&quot;</bucket>
+              <bucket>&quot;CONSULTANCY SERVICES&quot;</bucket>
+              <bucket>&quot;SOAPS, COSMETICS &amp; TOILET PREPARATIONS&quot;</bucket>
+              <bucket>&quot;MISCELLANEOUS INDUSTRIES&quot;</bucket>
+              <bucket>&quot;PRINTING OF BOOKS (INCLUDING LITHO PRINTING INDUSTRY)&quot;</bucket>
+              <bucket>&quot;CONSTRUCTION (INFRASTRUCTURE) ACTIVITIES&quot;</bucket>
+              <bucket>&quot;ELECTRONICS&quot;</bucket>
+              <bucket>&quot;CERAMICS&quot;</bucket>
+              <bucket>&quot;AIR TRANSPORT (INCLUDING AIR FREIGHT)&quot;</bucket>
+              <bucket>&quot;COMMERCIAL, OFFICE &amp; HOUSEHOLD EQUIPMENTS&quot;</bucket>
+              <bucket>&quot;TIMBER PRODUCTS&quot;</bucket>
+              <bucket>&quot;MACHINE TOOLS&quot;</bucket>
+              <bucket>&quot;SUGAR&quot;</bucket>
+              <bucket>&quot;LEATHER,LEATHER GOODS AND PICKERS&quot;</bucket>
+              <bucket>&quot;INDUSTRIAL INSTRUMENTS&quot;</bucket>
+              <bucket>&quot;MINING&quot;</bucket>
+              <bucket>&quot;FERTILIZERS&quot;</bucket>
+              <bucket>&quot;DEFENCE INDUSTRIES&quot;</bucket>
+              <bucket>&quot;PORTS&quot;</bucket>
+              <bucket>&quot;PHOTOGRAPHIC RAW FILM AND PAPER&quot;</bucket>
+              <bucket>&quot;MATHEMATICAL,SURVEYING AND DRAWING INSTRUMENTS&quot;</bucket>
+              <bucket>&quot;COIR&quot;</bucket>
+              <bucket>&quot;COAL PRODUCTION&quot;</bucket>
+              <bucket>%all%</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[yr:Calculation_4828632860488069120:ok]'>
+            <groupfilter count='6' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='MIN([Calculation_4828632860488069120])' function='order' user:ui-marker='order'>
+                <groupfilter from='2000' function='range' level='[yr:Calculation_4828632860488069120:ok]' to='2016' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[yr:Calculation_4828632860488069120:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[pcdf:sum:Pivot Field Values:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[none:Sector:nk]</rows>
+        <cols>[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[yr:Calculation_4828632860488069120:ok]</cols>
+      </table>
+      <simple-id uuid='{08F70B69-7BC2-41F2-A701-C8342F6DAC4B}' />
+    </worksheet>
+    <worksheet name='Highest FDI in Latest Year'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data (FDI Case Study (1))' name='federated.0sao4lr1dq0rl319y4uqc0d49n9t' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0sao4lr1dq0rl319y4uqc0d49n9t'>
+            <column caption='FDI' datatype='real' name='[Pivot Field Values]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Sector]' role='dimension' type='nominal' />
+            <column-instance column='[Sector]' derivation='None' name='[none:Sector:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Pivot Field Values]' derivation='Sum' name='[sum:Pivot Field Values:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[none:Sector:nk]'>
+            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([Pivot Field Values])' function='order' user:ui-marker='order'>
+                <groupfilter from='&quot;AGRICULTURAL MACHINERY&quot;' function='range' level='[none:Sector:nk]' to='&quot;VEGETABLE OILS AND VANASPATI&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[none:Sector:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[sum:Pivot Field Values:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[none:Sector:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[none:Sector:nk]' value='240' />
+            <format attr='height-header' value='10' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[sum:Pivot Field Values:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[none:Sector:nk]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{01B38853-03AE-4DD2-90AF-E9D450A202C5}' />
+    </worksheet>
+    <worksheet name='Lowest FDI in Latest Year'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data (FDI Case Study (1))' name='federated.0sao4lr1dq0rl319y4uqc0d49n9t' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0sao4lr1dq0rl319y4uqc0d49n9t'>
+            <column caption='FDI' datatype='real' name='[Pivot Field Values]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Sector]' role='dimension' type='nominal' />
+            <column-instance column='[Sector]' derivation='None' name='[none:Sector:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Pivot Field Values]' derivation='Sum' name='[sum:Pivot Field Values:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[none:Sector:nk]'>
+            <groupfilter count='10' end='bottom' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([Pivot Field Values])' function='order' user:ui-marker='order'>
+                <groupfilter from='&quot;AGRICULTURAL MACHINERY&quot;' function='range' level='[none:Sector:nk]' to='&quot;VEGETABLE OILS AND VANASPATI&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[none:Sector:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[sum:Pivot Field Values:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[none:Sector:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[none:Sector:nk]' value='520' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[sum:Pivot Field Values:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[none:Sector:nk]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{20103218-0CC8-4480-8E05-BF943D54158C}' />
+    </worksheet>
+    <worksheet name='Over 1000 crores FDI'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data (FDI Case Study (1))' name='federated.0sao4lr1dq0rl319y4uqc0d49n9t' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0sao4lr1dq0rl319y4uqc0d49n9t'>
+            <column caption='FDI' datatype='real' name='[Pivot Field Values]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Sector]' role='dimension' type='nominal' />
+            <column-instance column='[FDI over 1000]' derivation='InOut' name='[io:FDI over 1000:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Sector]' derivation='None' name='[none:Sector:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Pivot Field Values]' derivation='Sum' name='[sum:Pivot Field Values:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[none:Sector:nk]' direction='DESC' measure-to-sort-by='[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[sum:Pivot Field Values:qk]' shelf='rows' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[io:FDI over 1000:nk]' />
+              <text column='[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[sum:Pivot Field Values:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0sao4lr1dq0rl319y4uqc0d49n9t].[none:Sector:nk] / [federated.0sao4lr1dq0rl319y4uqc0d49n9t].[io:FDI over 1000:nk])</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{928E538C-A241-48CD-8247-1B4114C10179}' />
+    </worksheet>
+    <worksheet name='Proportion of FDI 2016'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data (FDI Case Study (1))' name='federated.0sao4lr1dq0rl319y4uqc0d49n9t' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0sao4lr1dq0rl319y4uqc0d49n9t'>
+            <column caption='Financial Year' datatype='date' datatype-customized='true' name='[Calculation_4828632860488069120]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='DATE(DATEPARSE ( &quot;yyyy&quot;, LEFT([Pivot Field Names],4) )) ' />
+            </column>
+            <column caption='Year' datatype='string' hidden='true' name='[Pivot Field Names]' role='dimension' type='nominal' />
+            <column caption='FDI' datatype='real' name='[Pivot Field Values]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Sector]' role='dimension' type='nominal' />
+            <column-instance column='[Sector]' derivation='None' name='[none:Sector:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Pivot Field Values]' derivation='Sum' name='[sum:Pivot Field Values:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_4828632860488069120]' derivation='Year' name='[yr:Calculation_4828632860488069120:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[yr:Calculation_4828632860488069120:ok]'>
+            <groupfilter function='member' level='[yr:Calculation_4828632860488069120:ok]' member='2016' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[yr:Calculation_4828632860488069120:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[sum:Pivot Field Values:qk]' />
+              <color column='[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[sum:Pivot Field Values:qk]' />
+              <text column='[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[none:Sector:nk]' />
+              <text column='[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[sum:Pivot Field Values:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{035C8A1A-EA93-4B59-A661-13A8C1BAFFAD}' />
+    </worksheet>
+    <worksheet name='Specific Clusters'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data (FDI Case Study (1))' name='federated.0sao4lr1dq0rl319y4uqc0d49n9t' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0sao4lr1dq0rl319y4uqc0d49n9t'>
+            <column auto-hidden='true' caption='Clusters' datatype='integer' hidden='true' is-adhoc-cluster='true' name='[AdhocCluster:1]' parent-model='[AnalyticModel:{0faae66d-8b86-4799-9234-f143aa56661c}]' role='dimension' type='ordinal'>
+              <aliases>
+                <alias key='-1' value='Cluster Outliers' />
+                <alias key='0' value='Not Clustered' />
+                <alias key='1' value='Cluster 1' />
+                <alias key='2' value='Cluster 2' />
+                <alias key='3' value='Cluster 3' />
+                <alias key='4' value='Cluster 4' />
+                <alias key='5' value='Cluster 5' />
+                <alias key='6' value='Cluster 6' />
+                <alias key='7' value='Cluster 7' />
+                <alias key='8' value='Cluster 8' />
+                <alias key='9' value='Cluster 9' />
+                <alias key='10' value='Cluster 10' />
+                <alias key='11' value='Cluster 11' />
+                <alias key='12' value='Cluster 12' />
+                <alias key='13' value='Cluster 13' />
+                <alias key='14' value='Cluster 14' />
+                <alias key='15' value='Cluster 15' />
+                <alias key='16' value='Cluster 16' />
+                <alias key='17' value='Cluster 17' />
+                <alias key='18' value='Cluster 18' />
+                <alias key='19' value='Cluster 19' />
+                <alias key='20' value='Cluster 20' />
+                <alias key='21' value='Cluster 21' />
+                <alias key='22' value='Cluster 22' />
+                <alias key='23' value='Cluster 23' />
+                <alias key='24' value='Cluster 24' />
+                <alias key='25' value='Cluster 25' />
+                <alias key='26' value='Cluster 26' />
+                <alias key='27' value='Cluster 27' />
+                <alias key='28' value='Cluster 28' />
+                <alias key='29' value='Cluster 29' />
+                <alias key='30' value='Cluster 30' />
+                <alias key='31' value='Cluster 31' />
+                <alias key='32' value='Cluster 32' />
+                <alias key='33' value='Cluster 33' />
+                <alias key='34' value='Cluster 34' />
+                <alias key='35' value='Cluster 35' />
+                <alias key='36' value='Cluster 36' />
+                <alias key='37' value='Cluster 37' />
+                <alias key='38' value='Cluster 38' />
+                <alias key='39' value='Cluster 39' />
+                <alias key='40' value='Cluster 40' />
+                <alias key='41' value='Cluster 41' />
+                <alias key='42' value='Cluster 42' />
+                <alias key='43' value='Cluster 43' />
+                <alias key='44' value='Cluster 44' />
+                <alias key='45' value='Cluster 45' />
+                <alias key='46' value='Cluster 46' />
+                <alias key='47' value='Cluster 47' />
+                <alias key='48' value='Cluster 48' />
+                <alias key='49' value='Cluster 49' />
+                <alias key='50' value='Cluster 50' />
+              </aliases>
+            </column>
+            <column caption='FDI' datatype='real' name='[Pivot Field Values]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Sector]' role='dimension' type='nominal' />
+            <column-instance column='[AdhocCluster:1]' derivation='None' is-adhoc-cluster='true' name='[none:AdhocCluster:1:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Sector]' derivation='None' name='[none:Sector:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Pivot Field Values]' derivation='Sum' name='[sum:Pivot Field Values:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <size column='[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[sum:Pivot Field Values:qk]' />
+              <text column='[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[none:AdhocCluster:1:ok]' />
+              <text column='[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[none:Sector:nk]' />
+              <color column='[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[none:AdhocCluster:1:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{445726CD-83A3-4CCA-BA46-6BEF0E548842}' />
+    </worksheet>
+    <worksheet name='Total Investment over the years'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data (FDI Case Study (1))' name='federated.0sao4lr1dq0rl319y4uqc0d49n9t' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0sao4lr1dq0rl319y4uqc0d49n9t'>
+            <column caption='Financial Year' datatype='date' datatype-customized='true' name='[Calculation_4828632860488069120]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='DATE(DATEPARSE ( &quot;yyyy&quot;, LEFT([Pivot Field Names],4) )) ' />
+            </column>
+            <column caption='Year' datatype='string' hidden='true' name='[Pivot Field Names]' role='dimension' type='nominal' />
+            <column caption='FDI' datatype='real' name='[Pivot Field Values]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Sector]' role='dimension' type='nominal' />
+            <column-instance column='[Sector]' derivation='None' name='[none:Sector:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Pivot Field Values]' derivation='Sum' name='[sum:Pivot Field Values:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_4828632860488069120]' derivation='Year' name='[yr:Calculation_4828632860488069120:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[none:Sector:nk]'>
+            <groupfilter function='level-members' level='[none:Sector:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[none:Sector:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[sum:Pivot Field Values:qk]' scope='rows' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <text column='[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[sum:Pivot Field Values:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#f28e2b' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='1.9010497331619263' />
+                <format attr='line-interpolation' value='step' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[sum:Pivot Field Values:qk]</rows>
+        <cols>[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[yr:Calculation_4828632860488069120:ok]</cols>
+      </table>
+      <simple-id uuid='{30C64A63-AEB7-42EF-A1D4-C6D2208842D0}' />
+    </worksheet>
+    <worksheet name='Total Investment over the years (2)'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data (FDI Case Study (1))' name='federated.0sao4lr1dq0rl319y4uqc0d49n9t' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0sao4lr1dq0rl319y4uqc0d49n9t'>
+            <column caption='Financial Year' datatype='date' datatype-customized='true' name='[Calculation_4828632860488069120]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='DATE(DATEPARSE ( &quot;yyyy&quot;, LEFT([Pivot Field Names],4) )) ' />
+            </column>
+            <column caption='Year' datatype='string' hidden='true' name='[Pivot Field Names]' role='dimension' type='nominal' />
+            <column caption='FDI' datatype='real' name='[Pivot Field Values]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Sector (group)]' role='dimension' type='nominal'>
+              <calculation class='categorical-bin' column='[Sector]' new-bin='true'>
+                <bin default-name='false' value='&quot;Agriculture&quot;'>
+                  <value>&quot;AGRICULTURAL MACHINERY&quot;</value>
+                  <value>&quot;AGRICULTURE SERVICES&quot;</value>
+                  <value>&quot;CHEMICALS (OTHER THAN FERTILIZERS)&quot;</value>
+                  <value>&quot;DYE-STUFFS&quot;</value>
+                  <value>&quot;FERTILIZERS&quot;</value>
+                  <value>&quot;SUGAR&quot;</value>
+                  <value>&quot;TEA AND COFFEE (PROCESSING &amp; WAREHOUSING COFFEE &amp; RUBBER)&quot;</value>
+                  <value>&quot;TEXTILES (INCLUDING DYED,PRINTED)&quot;</value>
+                  <value>&quot;TIMBER PRODUCTS&quot;</value>
+                  <value>&quot;VEGETABLE OILS AND VANASPATI&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;Civil Industry&quot;'>
+                  <value>&quot;CEMENT AND GYPSUM PRODUCTS&quot;</value>
+                  <value>&quot;COAL PRODUCTION&quot;</value>
+                  <value>&quot;COIR&quot;</value>
+                  <value>&quot;CONSTRUCTION (INFRASTRUCTURE) ACTIVITIES&quot;</value>
+                  <value>&quot;CONSTRUCTION DEVELOPMENT: Townships, housing, built-up infrastructure and construction-development projects&quot;</value>
+                  <value>&quot;EARTH-MOVING MACHINERY&quot;</value>
+                  <value>&quot;GLUE AND GELATIN&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;Education&quot;'>
+                  <value>&quot;EDUCATION&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;Energy&quot;'>
+                  <value>&quot;CERAMICS&quot;</value>
+                  <value>&quot;MINING&quot;</value>
+                  <value>&quot;NON-CONVENTIONAL ENERGY&quot;</value>
+                  <value>&quot;PETROLEUM &amp; NATURAL GAS&quot;</value>
+                  <value>&quot;POWER&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;Hospitals&quot;'>
+                  <value>&quot;DRUGS &amp; PHARMACEUTICALS&quot;</value>
+                  <value>&quot;HOSPITAL &amp; DIAGNOSTIC CENTRES&quot;</value>
+                  <value>&quot;MEDICAL AND SURGICAL APPLIANCES&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;Industries&quot;'>
+                  <value>&quot;AUTOMOBILE INDUSTRY&quot;</value>
+                  <value>&quot;BOILERS AND STEAM GENERATING PLANTS&quot;</value>
+                  <value>&quot;DEFENCE INDUSTRIES&quot;</value>
+                  <value>&quot;FERMENTATION INDUSTRIES&quot;</value>
+                  <value>&quot;FOOD PROCESSING INDUSTRIES&quot;</value>
+                  <value>&quot;GLASS&quot;</value>
+                  <value>&quot;INDUSTRIAL INSTRUMENTS&quot;</value>
+                  <value>&quot;INDUSTRIAL MACHINERY&quot;</value>
+                  <value>&quot;MACHINE TOOLS&quot;</value>
+                  <value>&quot;METALLURGICAL INDUSTRIES&quot;</value>
+                  <value>&quot;MISCELLANEOUS INDUSTRIES&quot;</value>
+                  <value>&quot;MISCELLANEOUS MECHANICAL &amp; ENGINEERING INDUSTRIES&quot;</value>
+                  <value>&quot;PRIME MOVER (OTHER THAN ELECTRICAL GENERATORS)&quot;</value>
+                  <value>&quot;RAILWAY RELATED COMPONENTS&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;IT &amp; Services&quot;'>
+                  <value>&quot;COMPUTER SOFTWARE &amp; HARDWARE&quot;</value>
+                  <value>&quot;CONSULTANCY SERVICES&quot;</value>
+                  <value>&quot;ELECTRICAL EQUIPMENTS&quot;</value>
+                  <value>&quot;ELECTRONICS&quot;</value>
+                  <value>&quot;INFORMATION &amp; BROADCASTING (INCLUDING PRINT MEDIA)&quot;</value>
+                  <value>&quot;SERVICES SECTOR (Fin.,Banking,Insurance,Non Fin/Business,Outsourcing,R&amp;D,Courier,Tech. Testing and Analysis, Other)&quot;</value>
+                  <value>&quot;TELECOMMUNICATIONS&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;Other Miscellanios&quot;'>
+                  <value>&quot;MATHEMATICAL,SURVEYING AND DRAWING INSTRUMENTS&quot;</value>
+                  <value>&quot;PHOTOGRAPHIC RAW FILM AND PAPER&quot;</value>
+                  <value>&quot;SCIENTIFIC INSTRUMENTS&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;Retail Goods&quot;'>
+                  <value>&quot;COMMERCIAL, OFFICE &amp; HOUSEHOLD EQUIPMENTS&quot;</value>
+                  <value>&quot;DIAMOND,GOLD ORNAMENTS&quot;</value>
+                  <value>&quot;LEATHER,LEATHER GOODS AND PICKERS&quot;</value>
+                  <value>&quot;PAPER AND PULP (INCLUDING PAPER PRODUCTS)&quot;</value>
+                  <value>&quot;PRINTING OF BOOKS (INCLUDING LITHO PRINTING INDUSTRY)&quot;</value>
+                  <value>&quot;RUBBER GOODS&quot;</value>
+                  <value>&quot;SOAPS, COSMETICS &amp; TOILET PREPARATIONS&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;Trading&quot;'>
+                  <value>&quot;RETAIL TRADING&quot;</value>
+                  <value>&quot;TRADING&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;Transport&quot;'>
+                  <value>&quot;AIR TRANSPORT (INCLUDING AIR FREIGHT)&quot;</value>
+                  <value>&quot;HOTEL &amp; TOURISM&quot;</value>
+                  <value>&quot;PORTS&quot;</value>
+                  <value>&quot;SEA TRANSPORT&quot;</value>
+                </bin>
+              </calculation>
+            </column>
+            <column datatype='string' name='[Sector]' role='dimension' type='nominal' />
+            <column-instance column='[Pivot Field Values]' derivation='Sum' name='[sum:Pivot Field Values:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_4828632860488069120]' derivation='Year' name='[yr:Calculation_4828632860488069120:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[Sector (group)]'>
+            <groupfilter function='member' level='[Sector (group)]' member='&quot;Industries&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[Sector (group)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[sum:Pivot Field Values:qk]' scope='rows' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <text column='[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[sum:Pivot Field Values:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#f28e2b' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='1.9010497331619263' />
+                <format attr='line-interpolation' value='step' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[sum:Pivot Field Values:qk]</rows>
+        <cols>[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[yr:Calculation_4828632860488069120:ok]</cols>
+      </table>
+      <simple-id uuid='{E603F460-325F-4226-8F3D-0DD0F25D0334}' />
+    </worksheet>
+    <worksheet name='Variations'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data (FDI Case Study (1))' name='federated.0sao4lr1dq0rl319y4uqc0d49n9t' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0sao4lr1dq0rl319y4uqc0d49n9t'>
+            <column caption='FDI' datatype='real' name='[Pivot Field Values]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Sector]' role='dimension' type='nominal' />
+            <column-instance column='[Sector]' derivation='None' name='[none:Sector:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Pivot Field Values]' derivation='Sum' name='[sum:Pivot Field Values:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <manual-sort column='[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[none:Sector:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;SERVICES SECTOR (Fin.,Banking,Insurance,Non Fin/Business,Outsourcing,R&amp;D,Courier,Tech. Testing and Analysis, Other)&quot;</bucket>
+              <bucket>&quot;COMPUTER SOFTWARE &amp; HARDWARE&quot;</bucket>
+              <bucket>&quot;CONSTRUCTION DEVELOPMENT: Townships, housing, built-up infrastructure and construction-development projects&quot;</bucket>
+              <bucket>&quot;TELECOMMUNICATIONS&quot;</bucket>
+              <bucket>&quot;AUTOMOBILE INDUSTRY&quot;</bucket>
+              <bucket>&quot;DRUGS &amp; PHARMACEUTICALS&quot;</bucket>
+              <bucket>&quot;TRADING&quot;</bucket>
+              <bucket>&quot;CHEMICALS (OTHER THAN FERTILIZERS)&quot;</bucket>
+              <bucket>&quot;POWER&quot;</bucket>
+              <bucket>&quot;METALLURGICAL INDUSTRIES&quot;</bucket>
+              <bucket>&quot;HOTEL &amp; TOURISM&quot;</bucket>
+              <bucket>&quot;MISCELLANEOUS INDUSTRIES&quot;</bucket>
+              <bucket>&quot;CONSTRUCTION (INFRASTRUCTURE) ACTIVITIES&quot;</bucket>
+              <bucket>&quot;FOOD PROCESSING INDUSTRIES&quot;</bucket>
+              <bucket>&quot;PETROLEUM &amp; NATURAL GAS&quot;</bucket>
+              <bucket>&quot;ELECTRICAL EQUIPMENTS&quot;</bucket>
+              <bucket>&quot;INFORMATION &amp; BROADCASTING (INCLUDING PRINT MEDIA)&quot;</bucket>
+              <bucket>&quot;CEMENT AND GYPSUM PRODUCTS&quot;</bucket>
+              <bucket>&quot;NON-CONVENTIONAL ENERGY&quot;</bucket>
+              <bucket>&quot;INDUSTRIAL MACHINERY&quot;</bucket>
+              <bucket>&quot;HOSPITAL &amp; DIAGNOSTIC CENTRES&quot;</bucket>
+              <bucket>&quot;CONSULTANCY SERVICES&quot;</bucket>
+              <bucket>&quot;MISCELLANEOUS MECHANICAL &amp; ENGINEERING INDUSTRIES&quot;</bucket>
+              <bucket>&quot;SEA TRANSPORT&quot;</bucket>
+              <bucket>&quot;FERMENTATION INDUSTRIES&quot;</bucket>
+              <bucket>&quot;TEXTILES (INCLUDING DYED,PRINTED)&quot;</bucket>
+              <bucket>&quot;RUBBER GOODS&quot;</bucket>
+              <bucket>&quot;MINING&quot;</bucket>
+              <bucket>&quot;AGRICULTURE SERVICES&quot;</bucket>
+              <bucket>&quot;PRIME MOVER (OTHER THAN ELECTRICAL GENERATORS)&quot;</bucket>
+              <bucket>&quot;ELECTRONICS&quot;</bucket>
+              <bucket>&quot;PORTS&quot;</bucket>
+              <bucket>&quot;MEDICAL AND SURGICAL APPLIANCES&quot;</bucket>
+              <bucket>&quot;EDUCATION&quot;</bucket>
+              <bucket>&quot;PAPER AND PULP (INCLUDING PAPER PRODUCTS)&quot;</bucket>
+              <bucket>&quot;SOAPS, COSMETICS &amp; TOILET PREPARATIONS&quot;</bucket>
+              <bucket>&quot;AIR TRANSPORT (INCLUDING AIR FREIGHT)&quot;</bucket>
+              <bucket>&quot;RETAIL TRADING&quot;</bucket>
+              <bucket>&quot;DIAMOND,GOLD ORNAMENTS&quot;</bucket>
+              <bucket>&quot;MACHINE TOOLS&quot;</bucket>
+              <bucket>&quot;RAILWAY RELATED COMPONENTS&quot;</bucket>
+              <bucket>&quot;CERAMICS&quot;</bucket>
+              <bucket>&quot;VEGETABLE OILS AND VANASPATI&quot;</bucket>
+              <bucket>&quot;PRINTING OF BOOKS (INCLUDING LITHO PRINTING INDUSTRY)&quot;</bucket>
+              <bucket>&quot;FERTILIZERS&quot;</bucket>
+              <bucket>&quot;GLASS&quot;</bucket>
+              <bucket>&quot;AGRICULTURAL MACHINERY&quot;</bucket>
+              <bucket>&quot;EARTH-MOVING MACHINERY&quot;</bucket>
+              <bucket>&quot;COMMERCIAL, OFFICE &amp; HOUSEHOLD EQUIPMENTS&quot;</bucket>
+              <bucket>&quot;SCIENTIFIC INSTRUMENTS&quot;</bucket>
+              <bucket>&quot;SUGAR&quot;</bucket>
+              <bucket>&quot;BOILERS AND STEAM GENERATING PLANTS&quot;</bucket>
+              <bucket>&quot;LEATHER,LEATHER GOODS AND PICKERS&quot;</bucket>
+              <bucket>&quot;TIMBER PRODUCTS&quot;</bucket>
+              <bucket>&quot;GLUE AND GELATIN&quot;</bucket>
+              <bucket>&quot;TEA AND COFFEE (PROCESSING &amp; WAREHOUSING COFFEE &amp; RUBBER)&quot;</bucket>
+              <bucket>&quot;DYE-STUFFS&quot;</bucket>
+              <bucket>&quot;INDUSTRIAL INSTRUMENTS&quot;</bucket>
+              <bucket>&quot;PHOTOGRAPHIC RAW FILM AND PAPER&quot;</bucket>
+              <bucket>&quot;COAL PRODUCTION&quot;</bucket>
+              <bucket>&quot;MATHEMATICAL,SURVEYING AND DRAWING INSTRUMENTS&quot;</bucket>
+              <bucket>&quot;DEFENCE INDUSTRIES&quot;</bucket>
+              <bucket>&quot;COIR&quot;</bucket>
+              <bucket>%all%</bucket>
+            </dictionary>
+          </manual-sort>
+          <aggregation value='false' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <reference-line axis-column='[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[sum:Pivot Field Values:qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline0' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[sum:Pivot Field Values:qk]' z-order='1' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[none:Sector:nk]</rows>
+        <cols>[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[sum:Pivot Field Values:qk]</cols>
+      </table>
+      <simple-id uuid='{BAB243B5-3734-4EBC-B8DF-27B3D94590B5}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Dashboard 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1'>FDI Forecasting </run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style />
+      <size maxheight='768' maxwidth='1366' minheight='768' minwidth='1366' preset-index='0' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='97916' id='17' param='horz' type-v2='layout-flow' w='98828' x='586' y='1042'>
+            <zone h='97916' id='10' param='horz' type-v2='layout-flow' w='87115' x='586' y='1042'>
+              <zone h='97916' id='5' param='vert' type-v2='layout-flow' w='41434' x='586' y='1042'>
+                <zone h='5469' id='7' type-v2='title' w='41434' x='586' y='1042'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='92447' id='6' type-v2='layout-basic' w='41434' x='586' y='6511'>
+                  <zone h='46224' id='8' name='Highest FDI in Latest Year' w='20716' x='586' y='52734'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='46223' id='12' name='Lowest FDI in Latest Year' w='41434' x='586' y='6511'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='46224' id='15' name='Over 1000 crores FDI' w='20718' x='21302' y='52734'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                </zone>
+              </zone>
+              <zone fixed-size='624' h='97916' id='9' is-fixed='true' param='vert' type-v2='layout-flow' w='45681' x='42020' y='1042'>
+                <zone h='97916' id='14' name='Total Investment over the years' w='45681' x='42020' y='1042'>
+                  <layout-cache cell-count-w='17' minheight='203' type-h='scalable' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='97916' id='16' is-fixed='true' param='vert' type-v2='layout-flow' w='11713' x='87701' y='1042'>
+              <zone h='8594' id='18' name='Over 1000 crores FDI' pane-specification-id='0' param='[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[io:FDI over 1000:nk]' type-v2='color' w='11713' x='87701' y='1042'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <layout-options>
+            <title>
+              <formatted-text>
+                <run fontalignment='1'>FDI Forecasting </run>
+              </formatted-text>
+            </title>
+          </layout-options>
+          <size maxheight='1300' minheight='1300' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='20' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='19' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+                <zone h='5469' id='7' type-v2='title' w='41434' x='586' y='1042'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='97916' id='14' is-fixed='true' name='Total Investment over the years' w='45681' x='42020' y='1042'>
+                  <layout-cache cell-count-w='17' minheight='203' type-h='scalable' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='46223' id='12' is-fixed='true' name='Lowest FDI in Latest Year' w='41434' x='586' y='6511'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='46224' id='8' is-fixed='true' name='Highest FDI in Latest Year' w='20716' x='586' y='52734'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='46224' id='15' is-fixed='true' name='Over 1000 crores FDI' w='20718' x='21302' y='52734'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='8594' id='18' name='Over 1000 crores FDI' pane-specification-id='0' param='[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[io:FDI over 1000:nk]' type-v2='color' w='11713' x='87701' y='1042'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{99705D51-BD11-463F-B856-9DBE136B0EDC}' />
+    </dashboard>
+    <dashboard name='Dashboard 2'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <datasources>
+        <datasource caption='Data (FDI Case Study (1))' name='federated.0sao4lr1dq0rl319y4uqc0d49n9t' />
+      </datasources>
+      <datasource-dependencies datasource='federated.0sao4lr1dq0rl319y4uqc0d49n9t'>
+        <column caption='Financial Year' datatype='date' datatype-customized='true' name='[Calculation_4828632860488069120]' role='dimension' type='ordinal'>
+          <calculation class='tableau' formula='DATE(DATEPARSE ( &quot;yyyy&quot;, LEFT([Pivot Field Names],4) )) ' />
+        </column>
+        <column-instance column='[Calculation_4828632860488069120]' derivation='Year' name='[yr:Calculation_4828632860488069120:ok]' pivot='key' type='ordinal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='7' param='horz' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='98000' id='5' type-v2='layout-basic' w='61700' x='800' y='1000'>
+              <zone h='98000' id='3' name='Proportion of FDI 2016' w='61700' x='800' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='367' h='98000' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='36700' x='62500' y='1000'>
+              <zone h='46750' id='8' name='Proportion of FDI 2016' param='[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[yr:Calculation_4828632860488069120:ok]' type-v2='filter' w='36700' x='62500' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='8125' id='9' name='Proportion of FDI 2016' pane-specification-id='0' param='[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[sum:Pivot Field Values:qk]' type-v2='color' w='36700' x='62500' y='47750'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='11' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='10' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone h='46750' id='8' mode='checkdropdown' name='Proportion of FDI 2016' param='[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[yr:Calculation_4828632860488069120:ok]' type-v2='filter' w='36700' x='62500' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='98000' id='3' is-fixed='true' name='Proportion of FDI 2016' w='61700' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='8125' id='9' name='Proportion of FDI 2016' pane-specification-id='0' param='[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[sum:Pivot Field Values:qk]' type-v2='color' w='36700' x='62500' y='47750'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{6AF5A8C8-19FB-4F0E-A2CA-6F763511C036}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Highest FDI in Latest Year'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[none:Sector:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{B759FA63-0FDC-402C-82F9-280DFB4B572A}' />
+    </window>
+    <window class='worksheet' name='Lowest FDI in Latest Year'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[none:Sector:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{2ED6693A-7FF4-434B-AF6F-EC6D95832A13}' />
+    </window>
+    <window class='worksheet' name='Total Investment over the years'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[none:Sector:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{A9AB89E1-48BE-4EB1-A9CE-8B7E2860E2FF}' />
+    </window>
+    <window class='worksheet' name='Total Investment over the years (2)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[Sector (group)]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{47AB5AB8-C9F3-4680-8C94-A437C2EBC288}' />
+    </window>
+    <window class='worksheet' name='Over 1000 crores FDI'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[io:FDI over 1000:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{F352832C-DD49-4882-A0F9-54AA7F2F4BFC}' />
+    </window>
+    <window class='worksheet' name='High and Low Growth Sectors'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[yr:Calculation_4828632860488069120:ok]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{A0E12835-5855-46F9-9A64-9AC981796981}' />
+    </window>
+    <window class='worksheet' name='Variations'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{D0015560-D0AD-48AD-AF23-00F5C10EA493}' />
+    </window>
+    <window class='worksheet' name='Proportion of FDI 2016'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[yr:Calculation_4828632860488069120:ok]' type='filter' />
+            <card pane-specification-id='0' param='[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[sum:Pivot Field Values:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{2B51C8D8-BAB5-47A7-BF34-FD6B0117A706}' />
+    </window>
+    <window class='worksheet' name='Specific Clusters'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[none:AdhocCluster:1:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{94D156F6-C1C4-4846-BA62-15DA4C9938EC}' />
+    </window>
+    <window class='worksheet' name='Forecast for next year'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0sao4lr1dq0rl319y4uqc0d49n9t].[none:Forecast Indicator:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{D93CC47E-2A90-4831-83E9-D2DFFAE5DCE3}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Highest FDI in Latest Year' />
+        <viewpoint name='Lowest FDI in Latest Year' />
+        <viewpoint name='Over 1000 crores FDI' />
+        <viewpoint name='Total Investment over the years'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{32087CFD-A056-43BB-8B92-9E167EB1CF01}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 2'>
+      <viewpoints>
+        <viewpoint name='Proportion of FDI 2016' />
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{19B7FA9E-C726-4907-B29A-A2D4C25A386E}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Dashboard 2' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
